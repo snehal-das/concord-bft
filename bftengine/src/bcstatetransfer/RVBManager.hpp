@@ -171,7 +171,6 @@ class RVBManager {
   concordMetrics::Component metrics_component_;
 #ifdef ENABLE_ALL_METRICS
   struct Metrics {
-    concordMetrics::CounterHandle report_during_checkpointing_errors_;
     concordMetrics::CounterHandle pruning_reports_;
     concordMetrics::CounterHandle failures_while_setting_serialized_rvt_;
     concordMetrics::GaugeHandle pruning_vector_elements_count_;
